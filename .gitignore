@@ -1,47 +1,20 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# The directory Mix will write compiled artifacts to.
+/_build/
 
-# Folder config file
-Desktop.ini
+# If you run "mix test --cover", coverage assets end up here.
+/cover/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# The directory Mix downloads your dependencies sources to.
+/deps/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Where 3rd-party dependencies like ExDoc output generated docs.
+/doc/
 
-# Windows shortcuts
-*.lnk
+# Ignore .fetch files in case you like to edit your project deps locally.
+/.fetch
 
-# =========================
-# Operating System Files
-# =========================
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
 
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
